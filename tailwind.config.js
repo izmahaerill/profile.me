@@ -12,6 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        customFont: "Be Vietnam  Pro, sans-serif",
+      },
+      colors: {
+        primary: "#D4D4D4",
+        secondary: "#737373",
+        tersier: "#DE1D8D",
+      },
     },
   },
   plugins: [],
