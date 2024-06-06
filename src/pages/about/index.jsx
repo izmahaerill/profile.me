@@ -16,14 +16,16 @@ export default function index() {
             <h1 className="text-5xl font-bold leading-9 tracking-tight">
               About
             </h1>
-            <div className="mt-16">
-              <Image
-                src="/images/me.jpeg"
-                alt="azmi"
-                width={500}
-                height={500}
-                className="rounded-md"
-              ></Image>
+            <div className="mt-16 sticky top-20">
+              <div>
+                <Image
+                  src="/images/me.jpeg"
+                  alt="azmi"
+                  width={500}
+                  height={500}
+                  className="rounded-md"
+                ></Image>
+              </div>
               <div className="flex flex-col gap-2 py-5">
                 <h2 className="text-2xl font-bold leading-8 tracking-tight">
                   Muh Haeril Azmi
@@ -37,7 +39,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="group overflow-auto -z-50">
             <div className="mt-24 -z-50">
               <h2 className="text-4xl font-bold leading-8 tracking-tigh mb-11">
                 About this site
