@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
+import ToggleModeToggle from "../themes/ToggleDarkMode";
 
 export default function index() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +39,7 @@ export default function index() {
           <Link href="/about">About</Link>
         </div>
         <div>
-          <button>Button</button>
+          <ToggleModeToggle />
         </div>
       </nav>
     </header>

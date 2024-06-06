@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <div className="flex flex-col justify-center items-center text-9xl font-bold tracking-tighter mb-12 ">
+        <div className="flex flex-col justify-center items-center text-9xl font-bold tracking-tighter mb-12">
           <Link href="">Blog.</Link>
           <Link href="">Showcase.</Link>
           <Link href="">Portfolio.</Link>
