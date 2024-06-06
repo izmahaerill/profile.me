@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Layout from "./layouts/layout";
 import Arrowright from "../../public/icons/arrow-right";
+import Footer from "@/components/footer";
 
 export default function Home() {
-  const currentYears = new Date().getFullYear();
-
   return (
     <>
       <Layout>
@@ -43,16 +42,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="mb-10">
-          <p className="text-md font-semibold text-secondary">
-            All work &copy; {currentYears}{" "}
-            <span className="text-black">Muh Haeril Azmi</span> unless otherwise
-            noted.{" "}
-            <Link href={""} className="text-black">
-              Source
-            </Link>
-          </p>
-        </div>
+        <Footer />
       </Layout>
     </>
   );

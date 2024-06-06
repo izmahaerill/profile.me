@@ -16,11 +16,36 @@ module.exports = {
         customFont: "Be Vietnam  Pro, sans-serif",
       },
       colors: {
-        primary: "#D4D4D4",
+        primary: "#404040",
         secondary: "#737373",
         tersier: "#DE1D8D",
+        "custom-bulltet": "#C7C8CC",
+      },
+      spacing: {
+        6: "1.5rem", // Padding kiri untuk bullet point
+      },
+      fontSize: {
+        bullet: "0.5rem",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".custom-list-item": {
+          position: "relative",
+          paddingLeft: "1.5rem",
+        },
+        ".custom-list-item::before": {
+          content: '"•"',
+          position: "absolute",
+          left: "0",
+          fontSize: "1.1rem",
+          lineHeight: "1.7rem",
+          color: "#C7C8CC",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };
