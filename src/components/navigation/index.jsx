@@ -3,7 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import ToggleModeToggle from "../themes/ToggleDarkMode";
 
-export default function index() {
+export default function Index() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function index() {
       >
         <div className="flex gap-8 text-lg text-primary font-semibold ">
           <Link href="/">Home</Link>
-          <Link href="">Blog</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="">Endorsements</Link>
           <Link href="/about">About</Link>
         </div>
