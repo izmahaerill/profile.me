@@ -7,7 +7,7 @@ import Twitter from "../../../public/icons/twitter";
 import Headingyears from "@/components/micro/Headingyears";
 import Footer from "@/components/footer";
 
-export default function index() {
+export default function Index() {
   return (
     <>
       <Layout>
@@ -16,11 +16,11 @@ export default function index() {
             <h1 className="text-5xl font-bold leading-9 tracking-tight">
               About
             </h1>
-            <div className="mt-16 sticky top-20">
+            <div className="mt-16 sticky top-24">
               <div>
                 <Image
                   src="/images/me.jpeg"
-                  alt="azmi"
+                  alt="muh haeril azmi"
                   width={500}
                   height={500}
                   className="rounded-md"
@@ -60,7 +60,7 @@ export default function index() {
               <div className="font-normal text-lg text-black dark:text-white ">
                 <ul className="list-outside pl-3">
                   <li className="custom-list-item dark:text-white">
-                    Timothy's Next.js and Tailwind CSS template: Template
+                    Timothy&apos;s Next.js and Tailwind CSS template: Template
                     starter where I bootstrapped the project.
                   </li>
                   <li className="custom-list-item dark:text-white">
@@ -74,14 +74,14 @@ export default function index() {
               <div className="font-normal text-lg text-black dark:text-white">
                 <ul className="list-outside pl-3">
                   <li className="custom-list-item dark:text-white">
-                    I'm a software engineer with a strong focus on Front-end
-                    engineering. My previous works include hybrid mobile
-                    development and building Full-stack applications.
+                    I&apos;m a software engineer with a strong focus on
+                    Front-end engineering. My previous works include hybrid
+                    mobile development and building Full-stack applications.
                   </li>
                   <li className="custom-list-item dark:text-white">
-                    I'm an open-source enthusiast, helping maintain NextAuth.js.
-                    I triage issues, help contributors land their PRs, and
-                    analyze security vulnerability reports.{" "}
+                    I&apos;m an open-source enthusiast, helping maintain
+                    NextAuth.js. I triage issues, help contributors land their
+                    PRs, and analyze security vulnerability reports.
                   </li>
                   <li className="custom-list-item dark:text-white">
                     Besides hacking, I enjoy playing board/video games and
@@ -100,8 +100,8 @@ export default function index() {
                 Timeline
               </h2>
               <p className="font-normal text-lg text-black dark:text-white ">
-                Here's a brief timeline of my life events. If you want to know
-                more about me as a professional programmer, see my resume.
+                Here&apos;s a brief timeline of my life events. If you want to
+                know more about me as a professional programmer, see my resume.
               </p>
               <Headingyears years="2024" />
               <div className="font-normal text-lg">
@@ -120,16 +120,10 @@ export default function index() {
                   <li className="custom-list-item ">
                     Tech live stream with Techie & Dwarves Foundation: Radio
                     Talk #63 - How to manage an Open-source monorepo, featuring
-                    Auth.js (the live stream is in Vietnamese).{" "}
+                    Auth.js (the live stream is in Vietnamese).
                   </li>
                   <li className="custom-list-item">
-                    Shipped the SvelteKit + Auth.js + Cloudflare example.{" "}
-                  </li>
-                  <li className="custom-list-item">
-                    Shipped the SvelteKit + Auth.js + Cloudflare example.{" "}
-                  </li>
-                  <li className="custom-list-item">
-                    Shipped the SvelteKit + Auth.js + Cloudflare example.{" "}
+                    Shipped the SvelteKit + Auth.js + Cloudflare example.
                   </li>
                 </ul>
               </div>
@@ -149,11 +143,11 @@ export default function index() {
                     </li>
                     <li className="custom-list-item">
                       First tech live stream to talk about @nextauthjs source
-                      code with Sourcegraph.{" "}
+                      code with Sourcegraph.
                     </li>
                     <li className="custom-list-item">
                       Released an article for Tour De Source: How NextAuth.js
-                      and common authentication protocols work.{" "}
+                      and common authentication protocols work.
                     </li>
                     <li className="custom-list-item">
                       Contributed to Supabase Launch Week with the Supabase
@@ -162,7 +156,7 @@ export default function index() {
                   </ul>
                   <li className="custom-list-item">
                     Shipped Notion Personal Finance Tracker Template on Gumroad
-                    and ProductHunt. Made enough money for a new 💻.{" "}
+                    and ProductHunt. Made enough money for a new 💻.
                   </li>
                 </ul>
               </div>
@@ -170,11 +164,11 @@ export default function index() {
               <div className="font-normal text-lg">
                 <ul className="list-outside pl-3 text-black dark:text-white">
                   <li className="custom-list-item">
-                    Joined Line Corp as a Front-end developer.{" "}
+                    Joined Line Corp as a Front-end developer.
                   </li>
                   <li className="custom-list-item">
                     First open-source contribution to the tools I enjoy using:
-                    @vercel, @excalidraw, @nextauthjs.{" "}
+                    @vercel, @excalidraw, @nextauthjs.
                   </li>
                   <li className="custom-list-item">First blog post.</li>
                 </ul>
@@ -184,7 +178,7 @@ export default function index() {
                 <ul className="list-outside pl-3 text-black dark:text-white">
                   <li className="custom-list-item">
                     Joined mgm technology partners as a Full-stack developer.
-                    Shipped the A12 Add-ons on the A12 platform.{" "}
+                    Shipped the A12 Add-ons on the A12 platform.
                   </li>
                   <li className="custom-list-item">
                     Wrote my first JavaScript code.
@@ -208,7 +202,7 @@ export default function index() {
                   <ul className="list-outside pl-6 ">
                     <li className="custom-list-item">
                       Shipped internal toolings and systems for an industrial
-                      microscope monitoring product using C#.{" "}
+                      microscope monitoring product using C#.
                     </li>
                     <li className="custom-list-item">
                       Shipped Danabus and Góp Ý Đà Nẵng.
@@ -222,31 +216,20 @@ export default function index() {
                   </li>
                 </ul>
               </div>
-              <Headingyears years="2016" />
+              <Headingyears years="1014" yearsOf=" - 2017" />
               <div className="font-normal text-lg">
                 <ul className="list-outside pl-3 text-black dark:text-white">
                   <li className="custom-list-item">
-                    Graduated from Duy Tan University with an SWE bachelor's
-                    degree.{" "}
+                    Graduated from Duy Tan University with an SWE
+                    bachelor&apos;s degree.
                   </li>
                 </ul>
               </div>
-              <Headingyears years="1995" yearsOf=" - 2013" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white">
-                  <li className="custom-list-item">
-                    Born and raised in Danang, Vietnam.
-                  </li>
-                </ul>
-              </div>
-              <p className="font-normal text-lg text-black dark:text-white mt-10">
-                Last updated at February 15, 2024{" "}
-              </p>
             </div>
-            <Footer />
           </div>
         </div>
       </Layout>
+      <Footer />
     </>
   );
 }

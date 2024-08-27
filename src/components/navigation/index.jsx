@@ -8,7 +8,7 @@ export default function Index() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.screenY > 0) {
+      if (window.scrollY > 0) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -17,7 +17,7 @@ export default function Index() {
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-      removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 

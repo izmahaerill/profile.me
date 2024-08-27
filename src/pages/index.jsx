@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-8 mb-16">
           <h1 className="text-5xl font-bold leading-9 tracking-wide">
-            Haloo! I'm Azmi
+            Haloo! I&apos;m Azmi
           </h1>
           <div>
             <p className="text-xl font-medium text-secondary">
