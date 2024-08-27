@@ -25,7 +25,7 @@ export default function Index() {
     <header
       id="navigation"
       className={`flex flex-col justify-center fixed w-full ${
-        scrolled ? "border-b border-secondary" : ""
+        scrolled ? "border-b-0.5 border-[#262626]" : ""
       } `}
     >
       <nav

@@ -6,6 +6,7 @@ import Github from "../../../public/icons/github";
 import Twitter from "../../../public/icons/twitter";
 import Headingyears from "@/components/micro/Headingyears";
 import Footer from "@/components/footer";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -31,11 +32,19 @@ export default function Index() {
                 <h2 className="text-2xl font-bold leading-8 tracking-tight">
                   Muh Haeril Azmi
                 </h2>
-                <h3 className="font-normal text-lg text-black dark:text-white">
+                <h3 className="font-medium text-lg text-secondary dark:text-secondary">
                   Web Developer
                 </h3>
                 <div className="flex items-center gap-2 mt-3">
-                  <Email /> <Github /> <Twitter />
+                  <Link href={"mazmi6525@gmail.com"}>
+                    <Email />
+                  </Link>
+                  <Link href={"https://github.com/izmahaerill"}>
+                    <Github />
+                  </Link>
+                  <Link href={"https://x.com/Azmiiyaa22"}>
+                    <Twitter />
+                  </Link>
                 </div>
               </div>
             </div>

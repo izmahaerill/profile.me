@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      borderWidth: {
+        0.5: "0.5px",
+      },
       colors: {
         tersier: "#D53F8C",
         border: "hsl(var(--border))",
@@ -28,7 +31,8 @@ module.exports = {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        secondary: "#D4D4D4",
+        secondary: "#A3A3A3",
+        // secondary: "#D4D4D4",
         // secondary: {
         //   DEFAULT: "hsl(var(--secondary))",
         //   foreground: "hsl(var(--secondary-foreground))",
