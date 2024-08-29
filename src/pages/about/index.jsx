@@ -137,7 +137,8 @@ export default function Index() {
                 </ul>
               </div>
               <Headingyears years="2022" />
-              <div className="font-normal text-lg text-black dark:text-white">
+
+              {/* <div className="font-normal text-lg text-black dark:text-white">
                 <ul className="list-outside pl-3 ">
                   <li className="custom-list-item">
                     Joined an innovative Fintech company as a Front-end focused
@@ -168,7 +169,40 @@ export default function Index() {
                     and ProductHunt. Made enough money for a new 💻.
                   </li>
                 </ul>
+              </div> */}
+              <div className="font-normal text-lg text-black dark:text-white">
+                <ul className="list-outside pl-3">
+                  <li className="custom-list-item">
+                    Joined an innovative Fintech company as a Front-end focused
+                    software engineer.
+                  </li>
+                  <li className="custom-list-item">
+                    Became a member of @nextauthjs core.
+                  </li>
+                  <ul className="list-outside pl-6">
+                    <li className="custom-list-item">
+                      Shipped @auth/sveltekit with the Auth.js team.
+                    </li>
+                    <li className="custom-list-item">
+                      First tech live stream to talk about @nextauthjs source
+                      code with Sourcegraph.
+                    </li>
+                    <li className="custom-list-item">
+                      Released an article for Tour De Source: How NextAuth.js
+                      and common authentication protocols work.
+                    </li>
+                    <li className="custom-list-item">
+                      Contributed to Supabase Launch Week with the Supabase
+                      Adapter for NextAuth.js.
+                    </li>
+                  </ul>
+                  <li className="custom-list-item">
+                    Shipped Notion Personal Finance Tracker Template on Gumroad
+                    and ProductHunt. Made enough money for a new 💻.
+                  </li>
+                </ul>
               </div>
+
               <Headingyears years="2021" />
               <div className="font-normal text-lg">
                 <ul className="list-outside pl-3 text-black dark:text-white">

@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      // listStyleType: {
+      //   custom: "✦", // Sesuaikan dengan simbol atau gaya yang Anda inginkan
+      // },
+      // spacing: {
+      //   custom: "1rem", // Sesuaikan dengan ukuran yang diinginkan
+      // },
       borderWidth: {
         0.5: "0.5px",
       },

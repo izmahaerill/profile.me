@@ -15,7 +15,7 @@ export default function Input() {
             type="text"
             name="input"
             id="input"
-            className="block h-11 w-[32rem] rounded-md border-0 py-1.5 pr-20 dark:bg-gray-[#262626] text-gray-900 text-lg px-10 ring-1 ring-gray-300 focus:ring-1 focus:outline-tersier focus:dark:ring-1 focus:dark:ring-tersier focus:text-white dark:ring-0"
+            className="block h-11 w-[32rem] rounded-md border-0 py-1.5 pr-20 dark:bg-[#262626] text-gray-900 text-lg px-10 ring-1 ring-gray-300 focus:ring-tersier focus:text-tersier focus:outline-none focus:dark:ring-tersier focus:dark:text-white dark:ring-0"
             placeholder="search"
           />
         </div>
