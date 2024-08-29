@@ -36,7 +36,7 @@ export default function Index() {
                   Web Developer
                 </h3>
                 <div className="flex items-center gap-2 mt-3">
-                  <Link href={"mazmi6525@gmail.com"}>
+                  <Link href={"mailto:mazmi6525@gmail.com"}>
                     <Email />
                   </Link>
                   <Link href={"https://github.com/izmahaerill"}>
