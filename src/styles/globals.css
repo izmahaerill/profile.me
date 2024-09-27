@@ -75,6 +75,51 @@ li::marker {
   color: hsl(var(--foreground));
 }
 
+@keyframes colorChange1 {
+  0%,
+  100% {
+    color: #e000b2;
+  }
+  50% {
+    color: #f5f5f5;
+  }
+}
+
+@keyframes colorChange2 {
+  0%,
+  100% {
+    color: #b800e2;
+  }
+  50% {
+    color: #f5f5f5;
+  }
+}
+
+@keyframes colorChange3 {
+  0%,
+  100% {
+    color: #5e00f5;
+  }
+  50% {
+    color: #f5f5f5;
+  }
+}
+
+.text-animation-1 {
+  animation: colorChange1 9s infinite;
+  animation-delay: 6s;
+}
+
+.text-animation-2 {
+  animation: colorChange2 9s infinite;
+  animation-delay: 8s;
+}
+
+.text-animation-3 {
+  animation: colorChange3 9s infinite;
+  animation-delay: 12s;
+}
+
 @layer base {
   * {
     @apply border-border;

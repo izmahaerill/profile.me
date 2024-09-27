@@ -17,12 +17,6 @@ module.exports = {
       },
     },
     extend: {
-      // listStyleType: {
-      //   custom: "✦", // Sesuaikan dengan simbol atau gaya yang Anda inginkan
-      // },
-      // spacing: {
-      //   custom: "1rem", // Sesuaikan dengan ukuran yang diinginkan
-      // },
       borderWidth: {
         0.5: "0.5px",
       },
@@ -83,6 +77,25 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    keyframes: {
+      colorChange1: {
+        "0%, 100%": { color: "#E000B2" },
+        "50%": { color: "#F5F5F5" }, // Sesuaikan dengan background atau warna dasar
+      },
+      colorChange2: {
+        "0%, 100%": { color: "#B800E2" },
+        "50%": { color: "#F5F5F5" },
+      },
+      colorChange3: {
+        "0%, 100%": { color: "#5E00F5" },
+        "50%": { color: "#F5F5F5" },
+      },
+    },
+    animation: {
+      colorChange1: "colorChange1 2s infinite",
+      colorChange2: "colorChange2 2s infinite",
+      colorChange3: "colorChange3 2s infinite",
     },
   },
   plugins: [require("tailwindcss-animate")],

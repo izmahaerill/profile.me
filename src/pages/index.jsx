@@ -8,9 +8,15 @@ export default function Home() {
     <>
       <Layout>
         <div className="flex flex-col justify-center items-center text-9xl font-bold tracking-tighter mb-12">
-          <Link href="">Blog.</Link>
-          <Link href="">Showcase.</Link>
-          <Link href="">Portfolio.</Link>
+          <Link href="" className="text-animation-1">
+            Blog.
+          </Link>
+          <Link href="" className="text-animation-2">
+            Showcase.
+          </Link>
+          <Link href="" className="text-animation-3">
+            Portfolio.
+          </Link>
         </div>
         <div className="flex flex-col gap-8 mb-16">
           <h1 className="text-5xl font-bold leading-9 tracking-wide">
@@ -42,7 +48,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <Footer />
       </Layout>
     </>
   );

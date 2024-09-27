@@ -35,7 +35,7 @@ export default function Index() {
         <div className="flex gap-8 text-lg text-primary font-semibold ">
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="">Endorsements</Link>
+          <Link href="/endorsements">Endorsements</Link>
           <Link href="/about">About</Link>
         </div>
         <div>

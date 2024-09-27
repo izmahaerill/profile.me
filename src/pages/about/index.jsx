@@ -5,7 +5,6 @@ import Email from "../../../public/icons/email";
 import Github from "../../../public/icons/github";
 import Twitter from "../../../public/icons/twitter";
 import Headingyears from "@/components/micro/Headingyears";
-import Footer from "@/components/footer";
 import Link from "next/link";
 
 export default function Index() {
@@ -272,7 +271,6 @@ export default function Index() {
           </div>
         </div>
       </Layout>
-      <Footer />
     </>
   );
 }
