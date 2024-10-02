@@ -8,7 +8,7 @@ export default function Endorsements() {
         Endorsements
       </h1>
       <div>
-        <div className="text-xl flex flex-col gap-8 pr-56 py-7 text-zinc-400 ">
+        <div className="text-xl flex flex-col gap-8 pr-56 py-7 text-secondary ">
           <h2 className="text-start">
             Since you&apos;re here, I invite you to give me endorsement(s) based
             on the experience you had with me in tech. You could also leave a

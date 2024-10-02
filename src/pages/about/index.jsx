@@ -31,7 +31,7 @@ export default function Index() {
                 <h2 className="text-2xl font-bold leading-8 tracking-tight">
                   Muh Haeril Azmi
                 </h2>
-                <h3 className="font-medium text-lg text-secondary dark:text-secondary">
+                <h3 className="font-medium text-lg text-secondary dark:text-zinc-400">
                   Web Developer
                 </h3>
                 <div className="flex items-center gap-2 mt-3">
@@ -54,7 +54,7 @@ export default function Index() {
                 About this site
               </h2>
               <div className="flex flex-col gap-10 mb-5">
-                <p className="font-normal text-lg text-black dark:text-white ">
+                <p className="font-semibold text-lg text-zinc-700 dark:text-zinc-400 ">
                   Welcome to my home on the internet. This site works as a
                   portfolio, a place to share code and thoughts.
                 </p>
@@ -62,16 +62,16 @@ export default function Index() {
                   Credit
                 </h2>
               </div>
-              <p className="font-normal text-lg text-black dark:text-white mb-4">
+              <p className="font-semibold text-lg text-zinc-700 dark:text-zinc-400 mb-4">
                 I learn how to build this site from the community:
               </p>
-              <div className="font-normal text-lg text-black dark:text-white ">
+              <div className="font-semibold text-lg text-zinc-700 dark:text-zinc-400 ">
                 <ul className="list-outside pl-3">
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     Timothy&apos;s Next.js and Tailwind CSS template: Template
                     starter where I bootstrapped the project.
                   </li>
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     Lee Robinson: Guestbook, Spotify, and many other features.
                   </li>
                 </ul>
@@ -79,19 +79,19 @@ export default function Index() {
               <h2 className="text-4xl font-bold leading-8 tracking-tigh mt-5 mb-11">
                 About me
               </h2>
-              <div className="font-normal text-lg text-black dark:text-white">
+              <div className="font-semibold text-lg text-zinc-700 dark:text-zinc-400">
                 <ul className="list-outside pl-3">
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     I&apos;m a software engineer with a strong focus on
                     Front-end engineering. My previous works include hybrid
                     mobile development and building Full-stack applications.
                   </li>
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     I&apos;m an open-source enthusiast, helping maintain
                     NextAuth.js. I triage issues, help contributors land their
                     PRs, and analyze security vulnerability reports.
                   </li>
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     Besides hacking, I enjoy playing board/video games and
                     taking analog photos.
                   </li>
@@ -100,31 +100,31 @@ export default function Index() {
               <h3 className="text-xl font-semibold leading-8 tracking-tight mt-10 mb-3">
                 Support
               </h3>
-              <p className="font-normal text-lg text-black dark:text-white ">
+              <p className="font-semibold text-lg text-zinc-700 dark:text-zinc-400 ">
                 If you are interested in sponsoring me for my OSS work, please
                 consider becoming a sponsor
               </p>
               <h2 className="text-2xl font-bold leading-8 tracking-tight mb-5 mt-10">
                 Timeline
               </h2>
-              <p className="font-normal text-lg text-black dark:text-white ">
+              <p className="font-semibold text-lg text-zinc-700 dark:text-zinc-400 ">
                 Here&apos;s a brief timeline of my life events. If you want to
                 know more about me as a professional programmer, see my resume.
               </p>
               <Headingyears years="2024" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white">
-                  <li className="custom-list-item dark:text-white">
+              <div className="font-semibold text-lg">
+                <ul className="list-outside pl-3 text-zinc-700 dark:text-zinc-400">
+                  <li className="custom-list-item dark:text-zinc-400">
                     Off-site trip with the Auth.js core team in Northern Norway.
                   </li>
-                  <li className="custom-list-item dark:text-white">
+                  <li className="custom-list-item dark:text-zinc-400">
                     Got promoted to Senior Software Engineer.
                   </li>
                 </ul>
               </div>
               <Headingyears years="2023" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white ">
+              <div className="font-semibold text-lg">
+                <ul className="list-outside pl-3 text-zinc-700 dark:text-zinc-400 ">
                   <li className="custom-list-item ">
                     Tech live stream with Techie & Dwarves Foundation: Radio
                     Talk #63 - How to manage an Open-source monorepo, featuring
@@ -136,40 +136,7 @@ export default function Index() {
                 </ul>
               </div>
               <Headingyears years="2022" />
-
-              {/* <div className="font-normal text-lg text-black dark:text-white">
-                <ul className="list-outside pl-3 ">
-                  <li className="custom-list-item">
-                    Joined an innovative Fintech company as a Front-end focused
-                    software engineer.
-                  </li>
-                  <li className="custom-list-item">
-                    Became a member of @nextauthjs core.
-                  </li>
-                  <ul className="list-outside pl-6 ">
-                    <li className="custom-list-item">
-                      Shipped @auth/sveltekit with the Auth.js team
-                    </li>
-                    <li className="custom-list-item">
-                      First tech live stream to talk about @nextauthjs source
-                      code with Sourcegraph.
-                    </li>
-                    <li className="custom-list-item">
-                      Released an article for Tour De Source: How NextAuth.js
-                      and common authentication protocols work.
-                    </li>
-                    <li className="custom-list-item">
-                      Contributed to Supabase Launch Week with the Supabase
-                      Adapter for NextAuth.js
-                    </li>
-                  </ul>
-                  <li className="custom-list-item">
-                    Shipped Notion Personal Finance Tracker Template on Gumroad
-                    and ProductHunt. Made enough money for a new 💻.
-                  </li>
-                </ul>
-              </div> */}
-              <div className="font-normal text-lg text-black dark:text-white">
+              <div className="font-semibold text-lg text-zinc-700 dark:text-zinc-400">
                 <ul className="list-outside pl-3">
                   <li className="custom-list-item">
                     Joined an innovative Fintech company as a Front-end focused
@@ -203,8 +170,8 @@ export default function Index() {
               </div>
 
               <Headingyears years="2021" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white">
+              <div className="font-semibold text-lg">
+                <ul className="list-outside pl-3 text-zinc-700 dark:text-zinc-400">
                   <li className="custom-list-item">
                     Joined Line Corp as a Front-end developer.
                   </li>
@@ -216,8 +183,8 @@ export default function Index() {
                 </ul>
               </div>
               <Headingyears years="1019" yearsOf=" - 2020" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white">
+              <div className="font-semibold text-lg">
+                <ul className="list-outside pl-3 text-zinc-700 dark:text-zinc-400">
                   <li className="custom-list-item">
                     Joined mgm technology partners as a Full-stack developer.
                     Shipped the A12 Add-ons on the A12 platform.
@@ -235,7 +202,7 @@ export default function Index() {
                 </ul>
               </div>
               <Headingyears years="1017" yearsOf=" - 2018" />
-              <div className="font-normal text-lg text-black dark:text-white">
+              <div className="font-semibold text-lg text-zinc-700 dark:text-zinc-400">
                 <ul className="list-outside pl-3 ">
                   <li className="custom-list-item">
                     Got into tech by joining Sioux High Tech Software as a
@@ -259,8 +226,8 @@ export default function Index() {
                 </ul>
               </div>
               <Headingyears years="1014" yearsOf=" - 2017" />
-              <div className="font-normal text-lg">
-                <ul className="list-outside pl-3 text-black dark:text-white">
+              <div className="font-semibold text-lg">
+                <ul className="list-outside pl-3 text-zinc-700 dark:text-zinc-400">
                   <li className="custom-list-item">
                     Graduated from Duy Tan University with an SWE
                     bachelor&apos;s degree.

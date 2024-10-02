@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <>
       <footer className="my-10 text-sm leading-7">
-        <div className="text-md  text-secondary">
+        <h1 className="text-base text-zinc-400">
           All work &copy; {currentYears}{" "}
           <span className="text-primary">Muh Haeril Azmi</span> unless otherwise
           noted.{" "}
@@ -19,7 +19,7 @@ export default function Footer() {
               <ExternalLink />
             </span>
           </Link>
-        </div>
+        </h1>
         <p className="inline-flex items-center">
           <span className="mr-2">
             <Spotify />

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Layout from "./layouts/layout";
 import Arrowright from "../../public/icons/arrow-right";
-import Footer from "@/components/footer";
 
 export default function Home() {
   return (
