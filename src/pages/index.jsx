@@ -22,7 +22,7 @@ export default function Home() {
             Haloo! I&apos;m Azmi
           </h1>
           <div>
-            <p className="text-xl font-medium text-secondary">
+            <p className="text-xl font-medium text-zinc-700 dark:text-zinc-400">
               I am a full-stack Web Developer with a strong focus on front-end
               and system design.
             </p>
@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold">Latest blog posts</h2>
           </div>
           <div>
-            <h3 className="text-xl font-medium text-secondary ">
+            <h3 className="text-xl font-medium text-zinc-700 dark:text-zinc-400 ">
               No recent posts.
             </h3>
             <Link
